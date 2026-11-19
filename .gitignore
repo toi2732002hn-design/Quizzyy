@@ -1,0 +1,10 @@
+node_modules/
+data/
+.claude/
+
+# Tai lieu bai hoc va file lon: khong dua len GitHub (tai len qua muc Tai lieu)
+*.pdf
+*.zip
+*.xlsx
+Quizzy-Setup/installer/
+

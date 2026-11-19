@@ -1,0 +1,33 @@
+﻿QUIZZY - HOC TU VUNG
+====================
+
+CAI DAT (1 lan, khoang 2-3 phut)
+1. Giai nen TOAN BO file zip ra mot thu muc (chuot phai > Extract All).
+2. Bam dup "CAI DAT QUIZZY.bat".
+3. Cho thanh tien trinh chay den 100%. Can ket noi mang trong luc cai
+   (de tai thanh phan chay ung dung). Khong can cai them gi khac.
+4. Xong: bieu tuong Quizzy xuat hien tren man hinh nen. Bam dup de hoc.
+
+LAN DAU MO
+- Quizzy hoi ten hoc sinh va ten giao vien. Hai ten nay duoc ghi vao cac file Excel xuat ra.
+- Khong co mat khau / ma PIN.
+- Hoc phan "Vocabulary to talk about occupation" (44 tu) da co san.
+
+DUNG HANG NGAY
+- Bam dup bieu tuong Quizzy tren man hinh nen.
+- Muc "Buoi hoc": tu dong luu ngay hoc, hoc phan/file da hoc, hoat dong va diem.
+  Co the sua ngay hoc, ghi chu, hoac them buoi hoc ghi tay.
+- Dong cua so Quizzy: ung dung tu tat sau khoang 90 giay.
+  Hoac bam ten ban (goc tren ben phai) > "Thoat Quizzy".
+
+GO CAI DAT
+- Settings > Apps > Quizzy > Uninstall, hoac chay Uninstall.bat trong
+  %LOCALAPPDATA%\Programs\Quizzy
+
+DU LIEU
+- Luu tai %LOCALAPPDATA%\Quizzy\data (khong mat khi cai lai / nang cap).
+- Sao luu: chep thu muc "data".
+
+CAI KHONG CAN MANG
+- Tai san file node-v22.x-win-x64.zip tu nodejs.org, doi ten thanh node-win-x64.zip
+  va dat canh file "Install.ps1". (Van can mang de cai thu vien o buoc 4.)

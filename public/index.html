@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quizzy – Học từ vựng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234255ff'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>Q</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#/"><span class="logo-mark">Q</span><span class="logo-text">Quizzy</span></a>
+    <nav class="nav-links">
+      <a href="#/" data-nav="home">Trang chủ</a>
+      <a href="#/library" data-nav="library">Thư viện</a>
+      <a href="#/classes" data-nav="class">Lớp học</a>
+      <a href="#/docs" data-nav="docs">Tài liệu</a>
+      <a href="#/ipa" data-nav="ipa">Bảng IPA</a>
+    </nav>
+    <div class="search-wrap" id="globalSearch">
+      <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
+      <input type="search" placeholder="Tra từ Cambridge (phiên âm, nghĩa, ví dụ)…" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="spacer"></div>
+    <button class="icon-btn" id="accentBtn" title="Giọng đọc mặc định"></button>
+    <button class="icon-btn" id="themeBtn" title="Đổi giao diện sáng/tối"></button>
+    <a class="btn btn-primary" href="#/create" id="createBtn">+<span class="hide-sm"> Tạo học phần</span></a>
+    <div id="userChip"></div>
+  </header>
+  <main id="app"></main>
+  <div class="toasts" id="toasts"></div>
+  <script src="/ipa.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
